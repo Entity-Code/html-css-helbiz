@@ -1,0 +1,163 @@
+/* regole generali */
+*{
+   margin: 13px 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* regole generali */
+
+img{
+   max-width: 100%;
+   height: auto;
+}
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  /* background-color: lightgreen; */
+  border: solid 1px  #000;
+}
+.il-b{
+   display: inline-block;
+}
+.centratura-section{
+   width: 75%;
+   margin: 0 auto;
+}
+
+.dist-section{
+   padding-top: 20px;
+}
+.centratura-head-foot{
+   width: 80%;
+   margin: 0 auto;
+}
+#container-phone{
+   width: 250px;
+}
+.phone {
+   max-height: 500px;
+   margin-top: 70%;
+}
+
+#background-phone{
+   background-image:url(../img/anziano.jpg);
+   height:500px;
+   background-position: bottom;
+   background-size: cover;
+}
+
+.cont-left3, .cont-right3{
+   padding-top: 20px;
+   padding-bottom: 80px;
+}
+
+.cont-left3 > h1{
+   font-size: 30px;
+}
+
+
+/* blocco 4 */
+/* top */
+#background-scooter{
+   background-image: url(../img/scooter.jpg);
+   background-size: cover;
+   height: 500px;
+}
+/* top */
+
+
+/* settaggio scritte */
+.set-h2-4{
+   color: white;
+   font-size: 50px;
+   text-align: center;
+   padding-top: 70px;
+}
+
+.set-p-a-4{
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+   text-align: center;
+   display:block;
+   padding: 10px 0;
+}
+/* settaggio scritte */
+
+.relative{
+   position: relative;
+}
+
+/* left */
+.cont-left4{
+   height: 800px;
+}
+.cont-right4{
+   height: 800px;
+}
+/* left */
+
+/* blocco 4 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* versione telefono */
+@media screen and (max-width:768px){
+
+   #background-phone{
+      background-position: bottom left;
+   }
+
+   #row-phone .cont-left3 h1{
+      margin-top: 200px;
+      font-size: 35px;
+      padding: 0 70px;
+   }
+
+   #row-phone .cont-right3 h3,p{
+      font-size: 20px;
+   }
+
+   .cont-left3, .cont-right3{
+      padding-bottom: 0px;
+   }
+
+/* versione telefono */
+
+/* versione tablet */
+@media screen and (min-width:769px) and (max-width:992px){
+
+}
+/* versione tablet */
+
+
+
+
+
+@media screen and (max-width: 1100px){
+   .cont-left3 > h1{
+      text-align: left;
+   }
+
+   .cont-right3 > h3,p{
+      margin-left: 30px;
+   }
+}
+
+@media screen and (max-width: 1300px){
+   .cont-right3 > h3,p{
+      padding-left: 40px;
+   }
+
+}
