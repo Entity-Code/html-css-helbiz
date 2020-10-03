@@ -61,8 +61,8 @@ img{
    background-color: white;
 }
 
-#jumbo-sec{
-   padding-top: 50px;
+#jumbo-sec-dist{
+   padding-top: 13px;
 }
 
 /* nav */
@@ -85,6 +85,31 @@ img{
    margin:0;
 }
 /* nav */
+
+/* jumbo */
+#background-jumbo{
+   background-image:url(../img/helbiz-unlimeted-monopattini.jpg);
+   height:600px;
+   background-position: center;
+   background-size: cover;
+}
+/* jumbo */
+
+/* text jumbo */
+#background-jumbo h1{
+   color: white;
+   font-size: 55px;
+   padding-top: 5%;
+}
+#background-jumbo p{
+   color: white;
+   font-size: 21px;
+}
+
+.dist{
+   margin-top: 200px;
+}
+/* text jumbo */
 
 /* blocco 1 */
 
@@ -239,6 +264,7 @@ img{
    .cont-left4 > img {
       margin-top: 0px;
    }
+
 }
 /* versione telefono */
 
@@ -250,6 +276,16 @@ img{
 @media screen and (min-width:769px) and (max-width:992px){
    .cont-left4 > img {
       display:none;
+   }
+
+   .dist{
+      margin-top: 200px;
+   }
+
+   #background-jumbo h1{
+      color: white;
+      font-size: 50px;
+      padding-top: 0;
    }
 }
 /* versione tablet */
