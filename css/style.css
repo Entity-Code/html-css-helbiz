@@ -265,6 +265,35 @@ img{
       margin-top: 0px;
    }
 
+   #background-jumbo{
+      background-position: left;
+   }
+
+   .dist{
+      margin-top: 185px;
+   }
+
+   #title-logo{
+      display: none;
+   }
+
+   #nav-header > ul > li,
+   #nav-header > ul > li > a{
+      list-style-type: none;
+      color: black;
+      display: inline-block;
+      font-size: 10px;
+      padding: 0px;
+      padding-top: 9px;
+   }
+
+   #nav-header > ul > li{
+      padding: 3px;
+      margin:0;
+   }
+   #nav-header{
+      text-align: center;
+   }
 }
 /* versione telefono */
 
@@ -278,10 +307,6 @@ img{
       display:none;
    }
 
-   .dist{
-      margin-top: 200px;
-   }
-
    #background-jumbo h1{
       color: white;
       font-size: 50px;
@@ -290,6 +315,10 @@ img{
 }
 /* versione tablet */
 
+
+
+
+/* ulteriori breakpoints */
 @media screen and (min-width: 993px) and (max-width: 1026px){
    .cont-right3 > h3,p{
       margin-bottom: 0px;
@@ -314,3 +343,4 @@ img{
 
    }
 }
+/* ulteriori breakpoints */
