@@ -4,6 +4,7 @@
    padding: 0;
    box-sizing: border-box;
 }
+
 /* regole generali */
 
 img{
@@ -12,7 +13,7 @@ img{
 }
 /* regole di debug */
 [class*="col-"] {
-  min-height: 100px;
+  min-height: 10px;
   /* background-color: lightgreen; */
   border: solid 1px  #000;
 }
@@ -32,6 +33,9 @@ img{
 .text-center{
    text-align: center;
 }
+.text-right{
+   text-align: right;
+}
 
 .dist-section{
    padding-top: 20px;
@@ -43,6 +47,45 @@ img{
 
 
 /* blocco 1 */
+
+.m, html{
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+#fixed{
+   width: 100%;
+   position:fixed;
+   top:0;
+   left:0;
+   background-color: white;
+}
+
+#jumbo-sec{
+   padding-top: 50px;
+}
+
+/* nav */
+#nav-header > ul > li,
+#nav-header > ul > li > a{
+   list-style-type: none;
+   color: black;
+   display: inline-block;
+   font-size: 13px;
+   padding: 5px;
+   padding-top: 0px;
+}
+
+#nav-header > ul > li{
+   padding: 5px;
+   margin:0;
+}
+
+#nav-header > ul {
+   margin:0;
+}
+/* nav */
+
 /* blocco 1 */
 
 /* blocco 2 */
