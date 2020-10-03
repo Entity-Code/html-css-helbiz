@@ -16,7 +16,7 @@ img{
 [class*="col-"] {
   min-height: 10px;
   /* background-color: lightgreen; */
-  /* border: solid 1px  #000; */
+  border: solid 1px  #000;
 }
 
 /* effects */
@@ -134,6 +134,16 @@ img{
 #nav-header > ul {
    margin:0;
 }
+
+#nav-header{
+   z-index: 999;
+}
+.cont-left4{
+   z-index: -999;
+}
+.cont-right4{
+   z-index: -999;
+}
 /* nav */
 
 /* jumbo */
@@ -159,6 +169,10 @@ img{
 
 .dist{
    margin-top: 200px;
+}
+
+.dist2{
+   margin-top: 150px;
 }
 /* text jumbo */
 /* blocco 1 */
@@ -258,9 +272,7 @@ img{
    position:relative;
    opacity: 0.9;
 }
-.cont-right4{
 
-}
 .cont-left4 > img {
    height: 160px;
    margin-bottom: 0;
@@ -296,8 +308,42 @@ img{
 
 
 
+/* blocco 5 */
+#background-social{
+   background-image: url(../img/pachwork.jpg);
+   height: 450px;
+   background-size: cover;
+
+}
+
+#background-text{
+   height: 175px;
+   background-color: white;
+}
+#background-text a h6{
+   padding-top: 30px;
+   margin-bottom: 0;
+   color: black;
+}
+#background-text a{
+   margin-top: 0;
+}
+/* colore icone social */
+.s{
+   color:black;
+}
+/* colore icone social */
+
+/* blocco 5 */
 
 
+
+
+
+
+
+/* blocco 6 */
+/* blocco 6 */
 
 
 
@@ -348,6 +394,10 @@ img{
 
    .dist{
       margin-top: 185px;
+   }
+
+   .dist2{
+      margin-top: 170px;
    }
 
    #title-logo{
