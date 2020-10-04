@@ -222,6 +222,12 @@ img{
 .phone {
    max-height: 500px;
    margin-top: 70%;
+   background-image: url(../img/helbizmeme2.png);
+   background-size:cover;
+
+   border: 0.5px solid gray;
+   border-radius: 35px;
+
 }
 
 #background-phone{
@@ -443,7 +449,8 @@ footer .row #background-footer{
    }
 
    .phone{
-      padding-left: 60px;
+      margin-left:60px;
+      height: 350px;
 
    }
 
@@ -554,8 +561,9 @@ footer .row #background-footer{
 /* versione tablet MD*/
 @media screen and (min-width:769px) and (max-width:992px){
    .phone{
-      padding-right: 40px;
-      margin-right: 20px;
+      height: 400px;
+      margin-top: 90%;
+      margin-right: 60px;
    }
 
    .cont-left3 > h1{
@@ -661,6 +669,8 @@ footer .row #background-footer{
    .phone{
       height: 300px;
       padding-left: 0;
+      margin-right: 100px;
+      margin-left: 0;
    }
 }
 
