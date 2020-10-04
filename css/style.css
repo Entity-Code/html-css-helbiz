@@ -152,7 +152,6 @@ img{
 /* jumbo */
 #background-jumbo{
    background-image:url(../img/helbiz-unlimeted-monopattini.jpg);
-   height:600px;
    background-position: center;
    background-size: cover;
    opacity: 0.8;
@@ -174,6 +173,7 @@ img{
 
 .cont-play-app a {
    padding: 0 10px;
+   padding-bottom: 150px;
 }
 
 .dist{
@@ -254,7 +254,6 @@ img{
 #background-scooter{
    background-image: url(../img/scooter.jpg);
    background-size: cover;
-   height: 500px;
    opacity: 0.8;
 }
 /* top */
@@ -276,6 +275,11 @@ img{
    display:block;
    padding-left: 0;
 }
+
+#text4-top a{
+   padding-bottom: 50px;
+}
+
 /* settaggio scritte */
 
 /* left */
@@ -318,6 +322,8 @@ img{
    text-align: center;
    display:block;
 }
+
+
 /* settaggio scritte left-right */
 /* blocco 4 */
 
@@ -418,7 +424,8 @@ footer .row #background-footer{
 @media screen and (max-width:768px){
 
    #background-phone{
-      background-position: bottom left;
+      background-position: center left;
+      height: 400px;
    }
 
    #row-phone .cont-left3 h1{
@@ -437,14 +444,22 @@ footer .row #background-footer{
 
    .phone{
       padding-left: 60px;
+
    }
+
+   #phone2{
+      margin-top:8px;
+   }
+
    .cont-left3, .cont-right3{
       padding-bottom: 0px;
    }
 
    .set-p-a-4{
-      padding-left: 0;
+      padding-left: 10px;
+      display: inline-block;
    }
+
 
    .cont-right3 > h3,p{
       padding-bottom: 23px;
@@ -563,9 +578,6 @@ footer .row #background-footer{
       padding-left:0;
    }
 
-   #background-jumbo{
-      height: 650px;
-   }
 
    .set-p-2{
       padding: 0 10px;
@@ -636,6 +648,54 @@ footer .row #background-footer{
       padding-right: 0px;
       margin-left: 0;
       margin-right: 0;
+   }
+
+
+}
+
+@media screen and (max-width: 381px){
+   #phone2{
+      height: 100px;
+      margin-top: 50px;
+   }
+   .phone{
+      height: 300px;
+      padding-left: 0;
+   }
+}
+
+@media screen and (max-width: 335px){
+   #phone2{
+      margin-top: 27px;
+   }
+
+   .set-h2-4{
+      font-size: 39px;
+   }
+
+   #text4-top h2{
+      font-size: 39px;
+   }
+
+   #text4-top p{
+      font-size: 22px;
+   }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 900px){
+   #phone2{
+      height: 120px;
+      margin-top: 59px;
+      padding-left: 50px;
+   }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1026px){
+   #phone2{
+      height: 135px;
+      margin-top: 44px;
+      padding-left: 50px;
    }
 }
 /* ulteriori breakpoints */
