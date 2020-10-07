@@ -215,6 +215,7 @@ img{
    color: #0070c8;
 }
 /* set text */
+
 /* blocco 2 */
 
 
@@ -225,7 +226,7 @@ img{
 .phone {
    max-height: 500px;
    margin-top: 70%;
-   background-image: url(../img/helbizmeme2.png);
+   background-image: url(../img/phone-content.png);
    background-size:cover;
    border: 0.5px solid gray;
    border-radius: 35px;
