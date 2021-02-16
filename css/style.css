@@ -304,7 +304,8 @@ img{
 .cont-left4 > img {
    height: 160px;
    margin-bottom: 0;
-   margin-top: 22px;
+   position: relative;
+   bottom: 14.5px;
 }
 
 .cont-right4{
@@ -459,6 +460,10 @@ footer .row #background-footer{
 
    #phone2{
       margin-top:8px;
+      display: none;
+   }
+   #phone2:hover {
+      
    }
 
    .cont-left3, .cont-right3{
@@ -583,7 +588,8 @@ footer .row #background-footer{
    .cont-left4 > img {
       display:block;
       text-align: center;
-      opacity: 0.7;
+      position: relative;
+      bottom: 24px;
    }
 
    #background-jumbo h1{
@@ -636,6 +642,9 @@ footer .row #background-footer{
       display:block;
       text-align: center;
       opacity: 0.7;
+      position: relative;
+      bottom: 24px;
+      right: 20px;
    }
 
    #nav-header > ul > li > a{
@@ -657,8 +666,12 @@ footer .row #background-footer{
       margin-bottom: 30px;
    }
    .cont-left4 > img {
-      height: 142px;
-
+      display:block;
+      text-align: center;
+      opacity: 0.7;
+      position: relative;
+      bottom: 24px;
+      right: 20px;
    }
 
    #nav-header > ul > li > a{
